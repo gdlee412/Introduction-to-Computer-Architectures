@@ -400,7 +400,7 @@ void i_format(char binary[33], char opcode[8], int *address)
 	else if(strncmp(funct3, "000", sizeof(funct3)) == 0 && type == 2)
 	{
 		registers[rd_decimal] = (*(address) + 1) * 4;
-		*address = (registers[rs1_decimal] >> immediate_decimal) / 4;
+		*address = (registers[rs1_decimal] + immediate_decimal) / 4;
 	}
 
 	registers[0] = 0;

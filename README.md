@@ -11,3 +11,6 @@ Understand what determines the performance of a computer
 4. Pipelining
 5. Memory Hierarchy
 6. Arithmetic for Computers
+
+## Programming Activity
+- Located in the SKKU 인의예지 서버
